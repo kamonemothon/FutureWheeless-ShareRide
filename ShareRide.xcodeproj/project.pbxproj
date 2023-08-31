@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1816AFCA2AA0E1A500F5DC57 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1816AFC92AA0E1A500F5DC57 /* .gitignore */; };
 		651751762A99941600838BA5 /* CheckUserAndDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651751752A99941600838BA5 /* CheckUserAndDestinationView.swift */; };
 		651751782A9999F400838BA5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651751772A9999F400838BA5 /* User.swift */; };
 		6517517A2A999A0A00838BA5 /* DestinationMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651751792A999A0A00838BA5 /* DestinationMockData.swift */; };
@@ -73,6 +74,7 @@
 
 /* Begin PBXFileReference section */
 		1816AFA42AA0D71300F5DC57 /* KakaoHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KakaoHeader.h; sourceTree = "<group>"; };
+		1816AFC92AA0E1A500F5DC57 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		651751752A99941600838BA5 /* CheckUserAndDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUserAndDestinationView.swift; sourceTree = "<group>"; };
 		651751772A9999F400838BA5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		651751792A999A0A00838BA5 /* DestinationMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationMockData.swift; sourceTree = "<group>"; };
@@ -327,6 +329,7 @@
 		C29F5DB32A98E4B00030C110 = {
 			isa = PBXGroup;
 			children = (
+				1816AFC92AA0E1A500F5DC57 /* .gitignore */,
 				C29F5DBE2A98E4B00030C110 /* ShareRide */,
 				C29F5DBD2A98E4B00030C110 /* Products */,
 				65D71CAC2A98E9470080877D /* Frameworks */,
@@ -446,6 +449,7 @@
 				65D71CA32A98E8EC0080877D /* noimage256.png in Resources */,
 				65D71CA62A98E8EC0080877D /* map_present.png in Resources */,
 				65D71C9B2A98E8EC0080877D /* daum_copyright.png in Resources */,
+				1816AFCA2AA0E1A500F5DC57 /* .gitignore in Resources */,
 				65D71C982A98E8EC0080877D /* copyright.png in Resources */,
 				65D71C922A98E8EC0080877D /* shadow_balloon.png in Resources */,
 				65D71C952A98E8EC0080877D /* map_pin_custom@3x.png in Resources */,
