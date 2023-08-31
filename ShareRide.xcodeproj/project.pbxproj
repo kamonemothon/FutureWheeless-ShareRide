@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1816AFCA2AA0E1A500F5DC57 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1816AFC92AA0E1A500F5DC57 /* .gitignore */; };
+		1816AFCC2AA1394000F5DC57 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816AFCB2AA1394000F5DC57 /* SearchViewModel.swift */; };
+		1816AFCE2AA1397000F5DC57 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816AFCD2AA1397000F5DC57 /* Search.swift */; };
+		1816AFD22AA139F800F5DC57 /* EstimatedAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816AFD12AA139F800F5DC57 /* EstimatedAmountView.swift */; };
+		1816AFD42AA13A2F00F5DC57 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816AFD32AA13A2F00F5DC57 /* SearchView.swift */; };
+		18561F702AA13BFB00814DE8 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18561F6F2AA13BFB00814DE8 /* PaymentView.swift */; };
 		651751762A99941600838BA5 /* CheckUserAndDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651751752A99941600838BA5 /* CheckUserAndDestinationView.swift */; };
 		651751782A9999F400838BA5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651751772A9999F400838BA5 /* User.swift */; };
 		6517517A2A999A0A00838BA5 /* DestinationMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651751792A999A0A00838BA5 /* DestinationMockData.swift */; };
@@ -17,7 +22,6 @@
 		651751882A9A92C400838BA5 /* CheckUserAndStartPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651751872A9A92C400838BA5 /* CheckUserAndStartPointView.swift */; };
 		6517518D2A9B147F00838BA5 /* SameStartPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6517518C2A9B147F00838BA5 /* SameStartPathView.swift */; };
 		6517518F2A9B148D00838BA5 /* SameDestinationPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6517518E2A9B148D00838BA5 /* SameDestinationPathView.swift */; };
-		651751952A9D11B800838BA5 /* KakaoAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651751942A9D11B800838BA5 /* KakaoAddressViewController.swift */; };
 		651751982A9D2D7A00838BA5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 651751972A9D2D7A00838BA5 /* Alamofire */; };
 		65D71C672A98E6280080877D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D71C662A98E6280080877D /* AppDelegate.swift */; };
 		65D71C902A98E8EC0080877D /* map_pinup_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D71C6B2A98E8EC0080877D /* map_pinup_custom@3x.png */; };
@@ -64,7 +68,6 @@
 		A9A6F5682A99F684008096AD /* InviteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A6F5672A99F684008096AD /* InviteView.swift */; };
 		C23DD4D92A99C25F00C16BB3 /* TogetherOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23DD4D82A99C25F00C16BB3 /* TogetherOptionView.swift */; };
 		C285553C2A9A0BB500976DDF /* DepartOrArriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C285553B2A9A0BB500976DDF /* DepartOrArriveView.swift */; };
-		C285553E2A9A1D8500976DDF /* DepartureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C285553D2A9A1D8500976DDF /* DepartureView.swift */; };
 		C285554B2A9A44A900976DDF /* ButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C285554A2A9A44A900976DDF /* ButtonModel.swift */; };
 		C29F5DC02A98E4B00030C110 /* ShareRideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F5DBF2A98E4B00030C110 /* ShareRideApp.swift */; };
 		C29F5DC42A98E4B20030C110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29F5DC32A98E4B20030C110 /* Assets.xcassets */; };
@@ -75,6 +78,11 @@
 /* Begin PBXFileReference section */
 		1816AFA42AA0D71300F5DC57 /* KakaoHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KakaoHeader.h; sourceTree = "<group>"; };
 		1816AFC92AA0E1A500F5DC57 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1816AFCB2AA1394000F5DC57 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		1816AFCD2AA1397000F5DC57 /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		1816AFD12AA139F800F5DC57 /* EstimatedAmountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstimatedAmountView.swift; sourceTree = "<group>"; };
+		1816AFD32AA13A2F00F5DC57 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		18561F6F2AA13BFB00814DE8 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
 		651751752A99941600838BA5 /* CheckUserAndDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUserAndDestinationView.swift; sourceTree = "<group>"; };
 		651751772A9999F400838BA5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		651751792A999A0A00838BA5 /* DestinationMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationMockData.swift; sourceTree = "<group>"; };
@@ -84,7 +92,6 @@
 		651751872A9A92C400838BA5 /* CheckUserAndStartPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUserAndStartPointView.swift; sourceTree = "<group>"; };
 		6517518C2A9B147F00838BA5 /* SameStartPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameStartPathView.swift; sourceTree = "<group>"; };
 		6517518E2A9B148D00838BA5 /* SameDestinationPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameDestinationPathView.swift; sourceTree = "<group>"; };
-		651751942A9D11B800838BA5 /* KakaoAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAddressViewController.swift; sourceTree = "<group>"; };
 		65D71C662A98E6280080877D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65D71C682A98E7510080877D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		65D71C6B2A98E8EC0080877D /* map_pinup_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup_custom@3x.png"; sourceTree = "<group>"; };
@@ -139,7 +146,6 @@
 		A9A6F5672A99F684008096AD /* InviteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteView.swift; sourceTree = "<group>"; };
 		C23DD4D82A99C25F00C16BB3 /* TogetherOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogetherOptionView.swift; sourceTree = "<group>"; };
 		C285553B2A9A0BB500976DDF /* DepartOrArriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartOrArriveView.swift; sourceTree = "<group>"; };
-		C285553D2A9A1D8500976DDF /* DepartureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureView.swift; sourceTree = "<group>"; };
 		C285554A2A9A44A900976DDF /* ButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModel.swift; sourceTree = "<group>"; };
 		C29F5DBC2A98E4B00030C110 /* ShareRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29F5DBF2A98E4B00030C110 /* ShareRideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareRideApp.swift; sourceTree = "<group>"; };
@@ -168,6 +174,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18561F6E2AA13BD200814DE8 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				18561F6F2AA13BFB00814DE8 /* PaymentView.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
 		651751842A9A925400838BA5 /* MockData */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +203,7 @@
 		65D71C602A98E5DB0080877D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18561F6E2AA13BD200814DE8 /* Payment */,
 				6517518B2A9B134500838BA5 /* StartAndDestination */,
 				65D71CC42A9988CD0080877D /* OptimumPath */,
 				C23DD4D72A99C1F100C16BB3 /* StartPoint */,
@@ -203,6 +218,7 @@
 				6517517D2A99A85600838BA5 /* Destination.swift */,
 				65DC0C4C2A9E640C00CEAF92 /* MultipleStop.swift */,
 				65DC0C4E2A9E641400CEAF92 /* MultipleOrigin.swift */,
+				1816AFCD2AA1397000F5DC57 /* Search.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -211,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				6517517F2A99F70D00838BA5 /* DestinationViewModel.swift */,
+				1816AFCB2AA1394000F5DC57 /* SearchViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -293,6 +310,7 @@
 			children = (
 				6517518C2A9B147F00838BA5 /* SameStartPathView.swift */,
 				6517518E2A9B148D00838BA5 /* SameDestinationPathView.swift */,
+				1816AFD12AA139F800F5DC57 /* EstimatedAmountView.swift */,
 			);
 			path = OptimumPath;
 			sourceTree = "<group>";
@@ -319,7 +337,7 @@
 			children = (
 				C23DD4D82A99C25F00C16BB3 /* TogetherOptionView.swift */,
 				C285553B2A9A0BB500976DDF /* DepartOrArriveView.swift */,
-				C285553D2A9A1D8500976DDF /* DepartureView.swift */,
+				1816AFD32AA13A2F00F5DC57 /* SearchView.swift */,
 				C285554A2A9A44A900976DDF /* ButtonModel.swift */,
 				C29FE61A2A9E6A2200EBBC34 /* HistoryModel.swift */,
 			);
@@ -362,7 +380,6 @@
 				65D71C692A98E8EC0080877D /* DaumMap.embeddedframework */,
 				65D71CBC2A98EC020080877D /* KakaoMapVCWarpper.swift */,
 				65D71CBE2A98F1380080877D /* KakaoMapWrapper.swift */,
-				651751942A9D11B800838BA5 /* KakaoAddressViewController.swift */,
 			);
 			path = ShareRide;
 			sourceTree = "<group>";
@@ -492,14 +509,17 @@
 				6517517C2A999EC500838BA5 /* InputStartPointOrDestinationView.swift in Sources */,
 				65D71CBF2A98F1380080877D /* KakaoMapWrapper.swift in Sources */,
 				651751802A99F70D00838BA5 /* DestinationViewModel.swift in Sources */,
+				1816AFCE2AA1397000F5DC57 /* Search.swift in Sources */,
 				A9A6F5682A99F684008096AD /* InviteView.swift in Sources */,
 				C29F5DC02A98E4B00030C110 /* ShareRideApp.swift in Sources */,
 				651751882A9A92C400838BA5 /* CheckUserAndStartPointView.swift in Sources */,
 				651751782A9999F400838BA5 /* User.swift in Sources */,
-				C285553E2A9A1D8500976DDF /* DepartureView.swift in Sources */,
 				65DC0C4F2A9E641400CEAF92 /* MultipleOrigin.swift in Sources */,
-				651751952A9D11B800838BA5 /* KakaoAddressViewController.swift in Sources */,
+				18561F702AA13BFB00814DE8 /* PaymentView.swift in Sources */,
+				1816AFD42AA13A2F00F5DC57 /* SearchView.swift in Sources */,
+				1816AFD22AA139F800F5DC57 /* EstimatedAmountView.swift in Sources */,
 				C285554B2A9A44A900976DDF /* ButtonModel.swift in Sources */,
+				1816AFCC2AA1394000F5DC57 /* SearchViewModel.swift in Sources */,
 				C285553C2A9A0BB500976DDF /* DepartOrArriveView.swift in Sources */,
 				65DC0C542AA04DF900CEAF92 /* APIRequest.swift in Sources */,
 				C23DD4D92A99C25F00C16BB3 /* TogetherOptionView.swift in Sources */,
